@@ -1,0 +1,29 @@
+#include<iostream.h>
+
+void main()
+{
+  int gol, status;
+  float gapok, tunjangan, total;
+  cout<<"Golongan (inputkan 1/2/3) = ";
+  cin>>gol;
+  cout<<"Status (inputkan 0:tidak_kawin 1:kawin) = ";
+  cin>>status;
+  
+  switch(gol)
+  {
+    case 1 : gapok = 300000; break;
+    case 2 : gapok = 500000; break;
+    case 3 : gapok = 800000; break;
+  }
+  
+  if (status == 1)
+    tunjangan = 0.2 * gapok;
+  else
+    tunjangan = 0;
+  
+  total = gapok + tunjangan;
+  
+  cout<<"Gaji Pokok = "<<gapok<<endl;
+  cout<<"Tunjangan = "<<tunjangan<<endl;
+  cout<<"Total = "<<total<<endl;
+}
