@@ -1,0 +1,8 @@
+#include<iostream.h>
+
+int x=10, y;
+void main()
+{
+  y = (x>10)&&(x<30);
+  cout<<"(x>10)&&(x<30) = "<<y<<"\n";
+}
