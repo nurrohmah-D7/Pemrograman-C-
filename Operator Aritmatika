@@ -1,0 +1,8 @@
+#include<iostream.h>
+int x=10, y=20, z;
+
+void main()
+{
+z = x + y;
+cout<<"x + y = "<<z<<"\n";
+}
