@@ -1,0 +1,9 @@
+#include<iostream.h>
+
+int x=10, y;
+
+void main()
+{
+  y = x >> 1;
+  cout<<"x + y = "<<y<<"\n";
+ }
