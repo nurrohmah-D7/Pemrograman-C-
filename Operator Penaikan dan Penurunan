@@ -1,0 +1,11 @@
+#include<iostream.h>
+int x=10;
+
+void main()
+{
+x++;
+cout<<"x++ = "<<x<<"\n";
+
+++x;
+cout<<"++x = "<<x<<"\n";
+}
