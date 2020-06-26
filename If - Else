@@ -1,0 +1,11 @@
+#include<iostream.h>
+
+{
+  int nilai;
+  cout<<"Masukkan nilai ujian = ";
+  cin>>nilai;
+  if (nilai > 60)
+    cout<<"Anda Lulus";
+  else
+    cout<<"Anda Belum Lulus";
+}
